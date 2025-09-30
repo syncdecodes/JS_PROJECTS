@@ -28,7 +28,9 @@ JavaScript (ES6+): For interactivity, logic, and DOM manipulation.
 
 APIs: For fetching external data in projects like the Weather App.
 
-AUTHOR
+✍️ AUTHOR
 
 DEV
+
+Created by [syncdecodes](https://github.com/syncdecodes)
 
