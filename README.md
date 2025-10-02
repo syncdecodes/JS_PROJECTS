@@ -14,6 +14,12 @@ A handy tool to generate multiplication tables on the fly. It includes a feature
 
 View [Live Demo](https://syncdecodes.github.io/JS_PROJECTS/01_TABLES/)
 
+🧮 Counter App
+
+A simple and intuitive tool to keep track of counts in real-time. It allows users to increment, decrement, and reset the count with ease, making it perfect for tracking tasks, scores, or any repetitive activity. Its clean interface and responsive design make counting fast and effortless.
+
+View [Live Demo](https://syncdecodes.github.io/JS_PROJECTS/02_COUNTER_APP/)
+
 > More projects will be added soon! 🚀
 
 🛠️ Tech Stack
