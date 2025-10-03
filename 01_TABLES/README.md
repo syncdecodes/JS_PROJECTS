@@ -18,5 +18,7 @@ It also includes a **"Get Table Up To"** feature to generate tables up to a spec
 
 ## Author
 DEV
+<br>
 Created by [syncdecodes](https://github.com/syncdecodes)
+
 
