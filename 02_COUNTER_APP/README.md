@@ -17,4 +17,5 @@ An interactive and lightweight web application built with pure JavaScript that p
 
 ## Author
 DEV
+<br>
 Created by [syncdecodes](https://github.com/syncdecodes)
