@@ -10,10 +10,11 @@ A sleek and functional JavaScript project that displays the current time in 12-h
 
 ## Live Demo
 
-* **Try this project live:** [Digital clock 24 hour format](https://syncdecodes.github.io/JS_PROJECTS/03_DIGITAL_CLOCK/)
+* **Try this project live:** [Digital clock](https://syncdecodes.github.io/JS_PROJECTS/03_DIGITAL_CLOCK/)
 
 * **Explore all my projects:** [JS Projects Collection](https://syncdecodes.github.io/JS_PROJECTS/)
 
 ## Author
 DEV
+
 Created by [syncdecodes](https://github.com/syncdecodes)
