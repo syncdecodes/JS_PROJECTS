@@ -22,7 +22,7 @@ View [Live Demo](https://syncdecodes.github.io/JS_PROJECTS/02_COUNTER_APP/)
 
 ⏰ Digital Clock
 
-A sleek and reliable tool that displays the current time in real-time. It features a clean and modern interface with accurate hour, minute, and second updates, making it ideal for workspaces, study areas, or daily routines.
+A sleek and reliable tool that displays the current time in real-time (IST). It features a clean and modern interface with accurate hour, minute, and second updates, making it ideal for workspaces, study areas, or daily routines.
 
 View [Live Demo](https://syncdecodes.github.io/JS_PROJECTS/03_DIGITAL_CLOCK/)
 
