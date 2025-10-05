@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #f8f8f8;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* General clock styles */
+.clock {
+    height: 5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00ffcc;
+    text-shadow: 0 0 4px rgba(0, 255, 204, 0.6), 0 0 8px rgba(0, 255, 204, 0.3);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8px);
+    transition: all 0.3s ease;
+    width: 24rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .clock {
+        height: 4rem;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        justify-content: flex-start;
+        padding-top: 3rem;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .clock {
+        height: 3.5rem;
+        font-size: 1.6rem;
+    }
+}
+
+/* Responsive widths */
+@media (max-width: 768px) {
+    .clock-12 {
+        width: 20rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .clock-12 {
+        width: 13rem;
+    }
+}
