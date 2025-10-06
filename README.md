@@ -26,6 +26,12 @@ A sleek and reliable tool that displays the current time in real-time (IST). It 
 
 View [Live Demo](https://syncdecodes.github.io/JS_PROJECTS/03_DIGITAL_CLOCK/)
 
+📝 Form Validator
+
+A smart and reliable tool to ensure your forms are always error-free. It checks user input in real-time, highlights mistakes, and provides helpful feedback, making data entry accurate and hassle-free. With customizable rules and instant validation, it keeps your forms user-friendly and secure.
+
+View [Live Demo](https://syncdecodes.github.io/JS_PROJECTS/04_FORM_VALIDATOR/)
+
 > More projects will be added soon! 🚀
 
 🛠️ Tech Stack
