@@ -32,6 +32,12 @@ A smart and reliable tool to ensure your forms are always error-free. It checks 
 
 View [Live Demo](https://syncdecodes.github.io/JS_PROJECTS/04_FORM_VALIDATOR/)
 
+# Palindrome Checker 🔁
+
+A simple and interactive JavaScript project that allows users to check whether a word, phrase, or number is a palindrome or not. Users can enter any text, and the app will instantly tell if it reads the same backward and forward.
+
+View [Live Demo](https://syncdecodes.github.io/JS_PROJECTS/05_PALINDROME_CHECKER/)
+
 > More projects will be added soon! 🚀
 
 🛠️ Tech Stack
