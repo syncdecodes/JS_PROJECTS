@@ -38,6 +38,12 @@ A simple and interactive JavaScript project that allows users to check whether a
 
 View [Live Demo](https://syncdecodes.github.io/JS_PROJECTS/05_PALINDROME_CHECKER/)
 
+## ⏱️ Stopwatch
+
+A simple yet powerful JavaScript project that allows users to start, pause, and reset time with precision. This digital stopwatch is designed for accuracy, responsiveness, and a sleek visual interface — perfect for timing any activity effortlessly.
+
+View [Live Demo](https://syncdecodes.github.io/JS_PROJECTS/06_STOPWATCH/)
+
 > More projects will be added soon! 🚀
 
 ## 🛠️ Tech Stack
