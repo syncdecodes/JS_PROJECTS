@@ -1,0 +1,143 @@
+/* Modern Font and Responsive Background */
+        body {
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            /* Use min-height to account for content growth */
+            margin: 0;
+            padding: 20px;
+            /* Added general padding for safety */
+            background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+            /* Gradient background */
+            box-sizing: border-box;
+            /* Ensure padding doesn't affect viewport width */
+        }
+
+        /* Container Fix: Using max-width and percentage for fluid centering */
+        .container {
+            max-width: 450px;
+            /* Slightly larger max width for desktop feel */
+            width: 90%;
+            /* Ensures it scales down gracefully on small screens (the fix) */
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            /* Softer rounded corners */
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            /* Stronger shadow */
+            transition: transform 0.3s ease;
+        }
+
+        .container:hover {
+            transform: translateY(-5px);
+            /* Lift effect on hover */
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #1e3c72;
+            /* Deep blue color */
+            font-size: 24px;
+            font-weight: 700;
+            border-bottom: 2px solid #a1c4fd;
+            padding-bottom: 10px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 180px;
+            padding: 15px;
+            border: 2px solid #a1c4fd;
+            border-radius: 10px;
+            resize: none;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9ff;
+            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+            box-sizing: border-box;
+            /* Crucial: ensures padding is included in the 100% width */
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: #4a90e2;
+            box-shadow: 0 0 8px rgba(74, 144, 226, 0.5);
+        }
+
+        .counters {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #1e3c72;
+            padding: 10px 0;
+            border-top: 1px dashed #ccc;
+        }
+
+        /* Counter badge styling */
+        #wordCount,
+        #charCount {
+            background-color: #e6f3ff;
+            padding: 8px 15px;
+            border-radius: 20px;
+            min-width: 120px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+            transition: background-color 0.2s;
+        }
+
+        #wordCount:hover,
+        #charCount:hover {
+            background-color: #d1eaff;
+        }
+
+        /* -------------------------------------- */
+        /* MEDIA QUERY FOR MOBILE RESPONSIVENESS */
+        /* -------------------------------------- */
+        @media (max-width: 500px) {
+            body {
+                padding: 10px;
+                /* Less padding on small screen */
+            }
+
+            .container {
+                padding: 20px 15px;
+                /* Reduced container padding */
+                border-radius: 12px;
+                width: 95%;
+                /* Take up more screen space on mobile */
+            }
+
+            h2 {
+                font-size: 20px;
+                margin-bottom: 15px;
+            }
+
+            textarea {
+                height: 150px;
+                font-size: 14px;
+            }
+
+            .counters {
+                flex-direction: column;
+                /* Stack counters vertically */
+                align-items: center;
+                gap: 10px;
+                /* Space between stacked counters */
+                margin-top: 15px;
+            }
+
+            #wordCount,
+            #charCount {
+                min-width: 80%;
+                /* Counters take up more width when stacked */
+                padding: 10px;
+                font-size: 15px;
+            }
+        }
