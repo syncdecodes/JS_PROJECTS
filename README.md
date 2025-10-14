@@ -44,7 +44,7 @@ A simple yet powerful JavaScript project that allows users to start, pause, and 
 
 View [Live Demo](https://syncdecodes.github.io/JS_PROJECTS/06_STOPWATCH/)
 
-## ✍️ WORD AND CHARACTER COUNTER APP
+## ✍️ Word and character counter app
 
 A lightweight and efficient JavaScript project that instantly counts words and characters as you type. Perfect for writers, students, and developers who need quick and accurate text analysis in a clean and minimal interface.
 
