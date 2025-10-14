@@ -14,7 +14,7 @@ A lightweight and efficient JavaScript project that instantly counts words and c
 
 ## Live Demo
 
-* **Try this project live:** [Tables Generator Demo](https://syncdecodes.github.io/JS_PROJECTS/07_WORD_&_CHARACTER_COUNTER/)
+* **Try this project live:** [WORD AND CHARACTER COUNTER APP](https://syncdecodes.github.io/JS_PROJECTS/07_WORD_&_CHARACTER_COUNTER/)
 
 * **Explore all my projects:** [JS Projects Collection](https://syncdecodes.github.io/JS_PROJECTS/)
 
