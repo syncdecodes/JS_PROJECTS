@@ -20,4 +20,6 @@ A lightweight and efficient JavaScript project that instantly counts words and c
 
 ## Author
 DEV
+
 Created by [syncdecodes](https://github.com/syncdecodes)
+
