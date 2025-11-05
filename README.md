@@ -50,6 +50,12 @@ A lightweight and efficient JavaScript project that instantly counts words and c
 
 View [Live Demo](https://syncdecodes.github.io/JS_PROJECTS/07_WORD_&_CHARACTER_COUNTER/)
 
+# Guess The Number Game 🎯
+
+A fun and interactive JavaScript game where players try to guess the hidden number within a given range. With real-time feedback and a sleek design, this game challenges your intuition and keeps you engaged as you aim for the correct guess!
+
+View [Live Demo](https://syncdecodes.github.io/JS_PROJECTS/09_GUESS_THE_NUMBER/)
+
 > More projects will be added soon! 🚀
 
 ## 🛠️ Tech Stack
