@@ -1,0 +1,154 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background: radial-gradient(circle at top, #bbdefb, #64b5f6, #1976d2);
+            background-size: cover;
+            color: #0d47a1;
+        }
+
+        /* 🎮 Container */
+        .container {
+            min-height: 18rem;
+            width: 90%;
+            max-width: 420px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 1.5rem;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+            padding: 2.5rem 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .container:hover {
+            transform: scale(1.03);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        /* 🎯 Title */
+        h1 {
+            font-weight: 600;
+            font-size: 1.8rem;
+            color: #0d47a1;
+            letter-spacing: 1px;
+            margin-bottom: 1.5rem;
+        }
+
+        /* 🔢 Input & Button Row */
+        .inp {
+            font-family: 'Courier New', monospace;
+            width: 15rem;
+            height: 2.2rem;
+            font-size: 1rem;
+            border-radius: 0.5rem;
+            border: 1px solid #64b5f6;
+            padding: 0 0.5rem;
+            transition: all 0.2s ease;
+            outline: none;
+        }
+
+        .inp:focus {
+            border-color: #1976d2;
+            box-shadow: 0 0 8px rgba(25, 118, 210, 0.4);
+        }
+
+        /* 🔘 Main Button */
+        .btn,
+        .btn2 {
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+            width: 6rem;
+            height: 2.4rem;
+            border: none;
+            border-radius: 0.7rem;
+            cursor: pointer;
+            background: linear-gradient(135deg, #42a5f5, #1976d2);
+            color: white;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(25, 118, 210, 0.3);
+        }
+
+        .btn:hover,
+        .btn2:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(25, 118, 210, 0.5);
+        }
+
+        .btn:active,
+        .btn2:active {
+            transform: scale(0.96);
+        }
+
+        /* 🕹️ Restart Button */
+        .btn2 {
+            margin-top: 2rem;
+            background: linear-gradient(135deg, #66bb6a, #2e7d32);
+        }
+
+        /* 💬 Results Section */
+        .result {
+            margin-top: 1.8rem;
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: #0d47a1;
+            padding: 0.8rem 1.2rem;
+            border-radius: 0.75rem;
+            background: rgba(255, 255, 255, 0.7);
+            box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+        }
+
+        .chances {
+            margin-top: 1rem;
+            font-size: 1rem;
+            color: #333;
+        }
+
+        /* ✨ Responsive Design */
+        @media (max-width: 480px) {
+            body {
+                justify-content: flex-start;
+                align-items: flex-start;
+                padding-top: 4rem;
+            }
+
+            .container {
+                padding: 2rem 1.5rem;
+                width: 100%;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            .inp {
+                width: 11rem;
+                font-size: 0.95rem;
+            }
+
+            .btn,
+            .btn2 {
+                width: 5.5rem;
+                height: 2.3rem;
+                font-size: 0.9rem;
+            }
+
+            .result {
+                font-size: 1rem;
+                padding: 0.6rem 1rem;
+            }
+
+            .chances {
+                font-size: 0.9rem;
+            }
+        }
