@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password generator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1 style="font-weight: 200;">Password Generator</h1>
+    <div class="container">
+
+        <div class="display">
+            <button class="btn btn1">Generate simple password</button>
+            <div class="password simple_pass"></div>
+        </div>
+        <div class="pass_length">
+            <input type="text" class="length" placeholder="Select lenght of password...." readonly>
+            <select name="" id="select">
+                <option value="" class="l1">Length</option>
+            </select>
+        </div>
+        <div class="display">
+            <button class="btn btn2">Generate moderate password</button>
+            <div class="password moderate_pass"></div>
+        </div>
+        <div class="display">
+            <button class="btn btn3">Generate strong password</button>
+            <div class="password strong_pass"></div>
+        </div>
+        <button class="btn4">Clear all</button>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>

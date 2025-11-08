@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #bbdefb, #64b5f6, #1e88e5);
+    color: #0d47a1;
+    transition: all 0.3s ease;
+}
+
+/* Heading */
+h1 {
+    font-weight: 500;
+    text-align: center;
+    color: #0d47a1;
+    letter-spacing: 1px;
+    margin: 1rem 0;
+}
+
+/* Container */
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    min-height: 20rem;
+    width: 90%;
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    transition: all 0.3s ease;
+}
+
+.container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Rows */
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/* Length section */
+.pass_length {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+}
+
+.pass_length input {
+    flex: 1;
+    min-width: 150px;
+    height: 2.3rem;
+    border-radius: 0.5rem;
+    border: 1px solid #90caf9;
+    padding: 0 0.5rem;
+    font-size: 1rem;
+    color: #0d47a1;
+    background: rgba(255, 255, 255, 0.95);
+    font-family: 'Courier New', monospace;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.pass_length input:focus {
+    border-color: #1976d2;
+    box-shadow: 0 0 5px rgba(25, 118, 210, 0.3);
+}
+
+.pass_length select {
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #90caf9;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.95);
+    color: #0d47a1;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.pass_length select:hover {
+    border-color: #1976d2;
+}
+
+/* Password boxes */
+.password {
+    flex: 1;
+    min-width: 150px;
+    height: 2.3rem;
+    border: 1px solid #1976d2;
+    background: rgba(255, 255, 255, 0.9);
+    font-family: 'Courier New', monospace;
+    font-weight: 400;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0d47a1;
+    font-size: 1rem;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+.btn {
+    flex: 1;
+    min-width: 150px;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 0.6rem;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #43a047, #66bb6a);
+    color: white;
+    font-weight: 500;
+    font-size: 0.95rem;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(67, 160, 71, 0.3);
+    transition: all 0.3s ease;
+    white-space: normal;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(67, 160, 71, 0.4);
+}
+
+.btn:active {
+    transform: scale(0.97);
+}
+
+/* Clear Button */
+.btn4 {
+    height: 2.3rem;
+    width: 8rem;
+    margin: auto;
+    background: linear-gradient(135deg, #e53935, #ef5350);
+    color: white;
+    border: none;
+    border-radius: 0.6rem;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(229, 57, 53, 0.3);
+    transition: all 0.3s ease;
+}
+
+.btn4:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(229, 57, 53, 0.4);
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+        padding: 1.8rem;
+    }
+
+    .btn,
+    .password {
+        width: 100%;
+    }
+}
+
+/* Mobile (<480px) */
+@media (max-width: 480px) {
+    body {
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 1.8rem;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .container {
+        width: 85%;
+        max-width: 350px;
+        padding: 1.2rem 1.2rem 1.5rem;
+        gap: 1rem;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    }
+
+    .display {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn,
+    .password,
+    .pass_length input,
+    .pass_length select {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    .btn4 {
+        width: 7rem;
+        height: 2.2rem;
+        font-size: 0.9rem;
+    }
+}
