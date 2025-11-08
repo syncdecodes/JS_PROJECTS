@@ -56,6 +56,12 @@ A fun and interactive JavaScript game where players try to guess the hidden numb
 
 View [Live Demo](https://syncdecodes.github.io/JS_PROJECTS/08_GUESS_THE_NUMBER/)
 
+## 🔐 Password Generator
+
+A secure and efficient JavaScript project that generates strong, random passwords with customizable options. Designed for simplicity and security, this tool helps users create unique passwords to protect their accounts and data.
+
+View [Live Demo](https://syncdecodes.github.io/JS_PROJECTS/09_PASSWORD_GENERATOR/)
+
 > More projects will be added soon! 🚀
 
 ## 🛠️ Tech Stack
