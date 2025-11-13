@@ -11,10 +11,11 @@ A simple and efficient JavaScript project that helps users organize tasks with e
 
 ## Live Demo
 
-* **Try this project live:** [Tables Generator Demo](https://syncdecodes.github.io/JS_PROJECTS/010_T0_DO_LIST/)
+* **Try this project live:** [To do list app](https://syncdecodes.github.io/JS_PROJECTS/010_T0_DO_LIST/)
 
 * **Explore all my projects:** [JS Projects Collection](https://syncdecodes.github.io/JS_PROJECTS/)
 
 ## Author
 DEV
+
 Created by [syncdecodes](https://github.com/syncdecodes)
