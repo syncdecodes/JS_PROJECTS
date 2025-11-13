@@ -5,9 +5,7 @@ A secure and efficient JavaScript project that generates strong, random password
 ## Features
 
 - Customizable Passwords: Choose length and include uppercase, lowercase, numbers, or special characters.
-
 - Instant Generation: Get a new secure password with a single click.
-
 - Built with Pure JavaScript, HTML, and CSS: Lightweight, fast, and dependency-free.
 
 ## Live Demo
@@ -19,3 +17,4 @@ A secure and efficient JavaScript project that generates strong, random password
 ## Author
 DEV
 Created by [syncdecodes](https://github.com/syncdecodes)
+
