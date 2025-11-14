@@ -62,7 +62,7 @@ A secure and efficient JavaScript project that generates strong, random password
 
 View [Live Demo](https://syncdecodes.github.io/JS_PROJECTS/09_PASSWORD_GENERATOR/)
 
-## To-Do List App ✅
+## To-Do List App 📝
 
 A simple and efficient JavaScript project that helps users organize tasks with ease. This interactive to-do list lets you add, edit, and remove tasks in real-time — perfect for staying productive and managing daily goals.
 
