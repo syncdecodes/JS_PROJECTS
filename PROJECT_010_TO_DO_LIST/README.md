@@ -1,4 +1,4 @@
-# To-Do List App ✅
+# To-Do List App 📝
 
 A simple and efficient JavaScript project that helps users organize tasks with ease. This interactive to-do list lets you add, edit, and remove tasks in real-time — perfect for staying productive and managing daily goals.
 
@@ -19,3 +19,4 @@ A simple and efficient JavaScript project that helps users organize tasks with e
 DEV
 
 Created by [syncdecodes](https://github.com/syncdecodes)
+
