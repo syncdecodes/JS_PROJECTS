@@ -12,7 +12,7 @@ A smart and interactive JavaScript project that helps users manage their finance
 
 ## Live Demo
 
-* **Try this project live:** [Expense tracker](https://syncdecodes.github.io/JS_PROJECTS/PROJECT_11_EXPENSE_TRACKER/)
+* **Try this project live:** [Expense tracker](https://syncdecodes.github.io/JS_PROJECTS/PROJECT_011_EXPENSE_TRACKER/)
 
 * **Explore all my projects:** [JS Projects Collection](https://syncdecodes.github.io/JS_PROJECTS/)
 
@@ -20,3 +20,4 @@ A smart and interactive JavaScript project that helps users manage their finance
 DEV
 
 Created by [syncdecodes](https://github.com/syncdecodes)
+
