@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense tracker</title>
+   <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Expense Tracker</h1>
+            <div class="money">
+                <div class="balance">Balance: 0</div>
+                <div class="income">Income: 0</div>
+                <div class="expenses">Expense: 0</div>
+            </div>
+
+            <div class="transactions">
+                <input type="text" class="Title" placeholder="Enter Title">
+                <input type="number" class="amount" placeholder="Enter amount">
+            </div>
+
+            <div class="sleectType">
+                <label for="type">
+                    Income
+                    <input name="type" type="radio" value="income">
+                </label>
+                <label for="type">
+                    Expense
+                    <input name="type" type="radio" value="expense">
+                </label>
+            </div>
+        </div>
+
+        <button class="btn">Add Transaction</button>
+
+        <div class="Trans_History">
+            <h1>History</h1>
+            <!-- <div class="history">
+                <div>Title: Food</div>
+                <div>Exp/Inc: amount</div>
+                <div>Date: 25 sep 2025</div>
+            </div>
+            <div class="history">
+                <div>Title: Food</div>
+                <div>Exp/Inc: amount</div>
+                <div>Date: 25 sep 2025</div>
+            </div> -->
+        </div>
+        <button class="clear">Clear History</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
