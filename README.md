@@ -68,6 +68,11 @@ A simple and efficient JavaScript project that helps users organize tasks with e
 
 View [Live Demo](https://syncdecodes.github.io/JS_PROJECTS/PROJECT_010_TO_DO_LIST/)
 
+# Expense Tracker App 💰
+
+A smart and interactive JavaScript project that helps users manage their finances with ease. This expense tracker allows you to record, categorize, and monitor your spending — making budgeting simple and effective.
+
+View [Live Demo](https://syncdecodes.github.io/JS_PROJECTS/PROJECT_011_EXPENSE_TRACKER/)
 
 > More projects will be added soon! 🚀
 
