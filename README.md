@@ -62,13 +62,13 @@ A secure and efficient JavaScript project that generates strong, random password
 
 View [Live Demo](https://syncdecodes.github.io/JS_PROJECTS/09_PASSWORD_GENERATOR/)
 
-## To-Do List App 📝
+## 📝 To-Do List App
 
 A simple and efficient JavaScript project that helps users organize tasks with ease. This interactive to-do list lets you add, edit, and remove tasks in real-time — perfect for staying productive and managing daily goals.
 
 View [Live Demo](https://syncdecodes.github.io/JS_PROJECTS/PROJECT_010_TO_DO_LIST/)
 
-## Expense Tracker App 💰
+## 💰 Expense Tracker App
 
 A smart and interactive JavaScript project that helps users manage their finances with ease. This expense tracker allows you to record, categorize, and monitor your spending — making budgeting simple and effective.
 
