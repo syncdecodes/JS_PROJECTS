@@ -17,5 +17,7 @@ A fast and user-friendly JavaScript project that allows users to convert amounts
 
 ## Author
 DEV
+
 Created by [syncdecodes](https://github.com/syncdecodes)
+
 
