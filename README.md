@@ -78,6 +78,8 @@ View [Live Demo](https://syncdecodes.github.io/JS_PROJECTS/PROJECT_011_EXPENSE_T
 
 A fast and user-friendly JavaScript project that allows users to convert amounts between different currencies in real-time. Designed with simplicity and accuracy in mind, this tool is perfect for travelers, shoppers, and anyone dealing with multiple currencies.
 
+View [Live Demo](https://syncdecodes.github.io/JS_PROJECTS/PROJECT_012_CURRENCY_CONVERTER/)
+
 > More projects will be added soon! 🚀
 
 ## 🛠️ Tech Stack
