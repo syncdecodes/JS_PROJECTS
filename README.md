@@ -74,7 +74,7 @@ A smart and interactive JavaScript project that helps users manage their finance
 
 View [Live Demo](https://syncdecodes.github.io/JS_PROJECTS/PROJECT_011_EXPENSE_TRACKER/)
 
-## Currency Converter App 💱
+## 💱 Currency Converter App
 
 A fast and user-friendly JavaScript project that allows users to convert amounts between different currencies in real-time. Designed with simplicity and accuracy in mind, this tool is perfect for travelers, shoppers, and anyone dealing with multiple currencies.
 
