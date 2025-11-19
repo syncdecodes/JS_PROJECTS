@@ -11,10 +11,11 @@ A fast and user-friendly JavaScript project that allows users to convert amounts
 
 ## Live Demo
 
-* **Try this project live:** [Digital clock 24 hour format](https://syncdecodes.github.io/JS_PROJECTS/012_CURRENCY_CONVERTER/)
+* **Try this project live:** [Currency Converter App](https://syncdecodes.github.io/JS_PROJECTS/PROJECT_012_CURRENCY_CONVERTER/)
 
 * **Explore all my projects:** [JS Projects Collection](https://syncdecodes.github.io/JS_PROJECTS/)
 
 ## Author
 DEV
+
 Created by [syncdecodes](https://github.com/syncdecodes)
