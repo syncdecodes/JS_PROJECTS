@@ -12,10 +12,11 @@ A sleek and intuitive JavaScript project that provides real-time weather informa
 
 ## Live Demo
 
-* **Try this project live:** [Weather app](https://syncdecodes.github.io/JS_PROJECTS/013_WEATHER_APP/)
+* **Try this project live:** [Weather app](https://syncdecodes.github.io/JS_PROJECTS/PROJECT_013_WEATHER_APP/)
 
 * **Explore all my projects:** [JS Projects Collection](https://syncdecodes.github.io/JS_PROJECTS/)
 
 ## Author
 DEV
 Created by [syncdecodes](https://github.com/syncdecodes)
+
