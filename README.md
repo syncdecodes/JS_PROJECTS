@@ -80,6 +80,12 @@ A fast and user-friendly JavaScript project that allows users to convert amounts
 
 View [Live Demo](https://syncdecodes.github.io/JS_PROJECTS/PROJECT_012_CURRENCY_CONVERTER/)
 
+# ☀️🌧️ Weather App
+
+A sleek and intuitive JavaScript project that provides real-time weather information for any city. This app fetches live data and displays temperature, conditions, humidity, and more — all in a clean and user-friendly interface.
+
+View [Live Demo](https://syncdecodes.github.io/JS_PROJECTS/013_WEATHER_APP/)
+
 > More projects will be added soon! 🚀
 
 ## 🛠️ Tech Stack
